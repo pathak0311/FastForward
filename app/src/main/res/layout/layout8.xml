@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="about"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="The importance of English in the current generation is unparalleled. While it is indispensable in the urban scenario, English seems to be steadily spreading its roots into the rural areas as well. For a leading developing nation, it is important that the generations to come are well equipped with knowledge of the language, and are capable of facing the everyday challenges of modern society. Fast Forward India aims at strengthening the roots of our nation. ESCAPE is an extension of the same. ESCAPE, English Speaking Course And Personality Enhancement, aims at spreading not just knowledge of the language but also communication skills and overall personality enhancement to those with limited resources. It aim at providing a platform for building confidence, encouraging creativity and developing skills which help them in various real world situations. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_centerHorizontal="true"
+            android:text="vision"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="Through ESCAPE we intend to eleminate the communication barrier amoungst masses from different sects of society and to instill within our students enhanced speaking skills along with a pleasing personality. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:text="working"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="ESCAPE follows the methodology of daily teaching, taking into consideration the day to day applications. Classes are conducted on a daily basis, including special personality development sessions. Weekly tests ensure a regular mapping of the progress, while regular syllabus revisions ensure that the students are up to date with the growing trends in society. We also provide required study material and daily practice problems (DPP) in English grammar. The personality enhancement sessions include quizzes, elocutions, debates, public speaking, talent displays like singing, dance and art. We also help students in developing their talents and hobbies through quality guidance from teachers experienced in various fields. ESCAPE also aims at developing a strong moral character within the students, inculcating values like discipline and respect. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+
+        <TextView
+            android:id="@+id/heading4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="establishments"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="Over the years the number of students have considerably increased. The number of volunteers are also increasing steadily, along with their dedication towards the students. ESCAPE also organized “Pratibha” and “Dream India”, the drama and dance competitions respectively. A free library under FFI is also being setup with active volunteering from ESCAPE along with an “ESCAPE Documentary” to showcase the importance of English and personality enhancement, and to demonstrate the working and progress of ESCAPE. “Aayam”, a first of its kind “Hinglish Magazine” which is also being worked upon, comprising of all the latest and upcoming events, weekly articles and updates. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text4"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="achievements"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="ESCAPE follows the methodology of daily teaching, taking into consideration the day to day applications. Classes are conducted on a daily basis, including special personality development sessions. Weekly tests ensure a regular mapping of the progress, while regular syllabus revisions ensure that the students are up to date with the growing trends in society. We also provide required study material and daily practice problems (DPP) in English grammar. The personality enhancement sessions include quizzes, elocutions, debates, public speaking, talent displays like singing, dance and art. We also help students in developing their talents and hobbies through quality guidance from teachers experienced in various fields. ESCAPE also aims at developing a strong moral character within the students, inculcating values like discipline and respect."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text5"
+            android:text="Under this project of FFI, the following things have been done for the society:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/point1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> 164 students have been imparted computer education in the previous 6 batches successfully at our center."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Among 29 inmates from KARAGAR JAGRITI CHAPTER, 14 inmates have been retracted on righteous path and now they are earning honestly."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> 'Dwanda' a computer quiz, for the slum students has been organized at annual basis."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> 'Tulika' a painting competition is an annually organized event."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Our student Rajni got 1st rank in interview for Biotech. course in P.K. Roy memorial College."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> A student Sachin of our batch has got the Job as computer operator in the ISM, Emrald Hostel"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+    </RelativeLayout>
+</ScrollView>

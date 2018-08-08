@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="about"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> What should I choose as a viable career option?"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> How do I prepare myself for it?"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> What all subjects do I need to study?"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> What’s the degree I need to acquire?"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Which is the best college I could enroll into for this? "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="These questions are what a student faces while preparing for further studies and we people, at Disha, tackle and solve, for students in schools of Dhanbad, Jharkhand. These students have a very little knowledge regarding viable career options. We aim to bring down this lack of information by making them aware of the various career fields there are, which are suitable for them and how they can pursue them by providing them the necessary information like about nearby colleges, fee structure, etc. DISHA volunteers organize counseling sessions in schools and make the students aware of the aspects of careers. The volunteers are trained by the experienced volunteers. The volunteers are also benefitted along with the students as they get the opportunity to fulfill their social responsibilities towards the society, along with the enhancement of their skills. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_centerHorizontal="true"
+            android:text="vision"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="This branch of FFI was started with a vision that DISHA will eradicate, the chimera of misinformation and ignorance, so that no student pays the cost because of such things. As in various cases, parents are not well-informed over the current career options and are often misguided. Also, there are cases where due to financial constraints, higher studies aren’t a priority. DISHA provides the students with a medium through which they can explore their options when they complete their 10+2. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="Recent collaboration with Medhavi Foundation a Delhi based NGO with similar prospects and experienced professionals in the field of career counseling has boosted up our confidence ans paced up our working frequency. With Medhavi Foundation, we have started a new project EDU-DISHA which intends to reach 20 government schools around Dhanbad district in year-long plan. With the ongoing collaboration with Medhavi Foundation, professionalism has risen among the volunteers and the work and progress is duly documented, hence making DISHA even more organized and it is sure to reach out to more and more students in the foreseeable future. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="LAKSHYA project"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="In the past years we have been a part of a initiative taken by the government named LAKSHYA PROJECT which aimed to counsel the government schools around Dhanbad district under the supervision of The respected District Educational Officer (DEO) of Dhanbad. Under this tenure, 25 Counseling sessions in 5 Government as listed below schools have been successfully conducted around Dhanbad district and positive feedbacks from the students and the school administrations have been received."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Govindpur High school, Govindpur"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/p1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> B.S.S Girls High school, Dhanbad"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/p3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/p2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Jharia +2 High School, Jharia"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/p4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/p3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> S.S.L.N.T Girls high School"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/p4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Zila High School"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/p5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="Apart from Lakshya, our volunteers also actively took part in counseling of the students belonging to various private schools."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/pt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> New South Point High School"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/pt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pt1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Kids Garden School, Dhanbad"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/pt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pt2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Gurukulam School, Dhanbad"
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pt3"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="achievements"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/point1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> 50+ counselling sessions have been held in more than 6 schools across Dhanbad so far."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Successfully conducted “Petrowalk”, in association with SPE, a counselling session which aimed at providing insight into Petroleum Engineering."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> A science exhibition was organised in ISM campus in SPARX the annual techno management fest in association with IEEE."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Collaborated with Medhavi Foundation a Delhi based NGO with similar prospects and experienced professionals in the field of career counseling started a new project EDU-DISHA."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Under the project EDU-DISHA, 4000+ students were helped through phonetic counseling regarding any problem related to the students."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+    </RelativeLayout>
+</ScrollView>

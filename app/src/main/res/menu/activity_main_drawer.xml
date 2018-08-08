@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/about"
+            android:title="About" />
+        <item
+            android:id="@+id/involve"
+            android:title="Get Involved" />
+        <item
+            android:id="@+id/gallery"
+            android:title="Gallery" />
+    </group>
+
+    <item android:title="Chapters">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/Jagriti"
+                android:title="Jagriti" />
+            <item
+                android:id="@+id/Escape"
+                android:title="Escape" />
+            <item
+                android:id="@+id/BloodLine"
+                android:title="BloodLine" />
+            <item
+                android:id="@+id/Disha"
+                android:title="Disha" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/catchus"
+                android:title="Catch Us" />
+        </menu>
+    </item>
+
+</menu>

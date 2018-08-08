@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="about FFI"
+        android:id="@+id/heading1"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textSize="20dp"
+        android:text="Fast Forward India (FFI) is a unique effort and an initiative undertaken by the students of ISM Dhanbad. This is an organization completely managed and administered by the young and enthusiastic students of the institution.
+Creative and powerful ways are implemented to tackle problems of the millions of underprivileged people in India.
+
+The organization conducts blood donation camps, imparts basic computer and English education, and numerous careers counseling sessions in schools to help the deprived students shape their future."
+        android:layout_below="@+id/heading1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="fill_horizontal"
+        android:typeface="sans"/>
+
+</RelativeLayout>
+</ScrollView>

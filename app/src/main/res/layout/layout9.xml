@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="fill_horizontal"
+        android:text="Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India. E-mail: "
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="fill_horizontal"
+        android:textIsSelectable="true"
+        android:text="fastforwardindia.org@gmail.com"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="CATCH US ON:"
+        android:layout_below="@+id/text2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fb"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/heading1"
+        android:autoLink="web"
+        android:onClick="fb"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fb"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twitter"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_below="@id/fb"
+        android:autoLink="web"
+        android:onClick="twitter"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/twitter"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/insta"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:layout_below="@id/twitter"
+        android:autoLink="web"
+        android:onClick="insta"
+        android:id="@+id/insta"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/youtube"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:layout_below="@id/insta"
+        android:autoLink="web"
+        android:onClick="youtube"
+        android:id="@+id/youtube"/>
+</RelativeLayout>
+</ScrollView>

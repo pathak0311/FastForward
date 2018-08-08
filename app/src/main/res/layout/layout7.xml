@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="about"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="In today’s competitive world, it is not the fittest who survives, but it is the one who is most adaptive to change. Life today has become so fast that we are dependent on machines for most of our work. Computers have penetrated our lives so deep that to achieve professional success in any field, crossing paths with computer education has become indispensable. In a country like India where most people are deprived of basic necessities for life, computer education for these underprivileged children is a distant dream. Keeping the current scenario in mind, Jagriti was proposed as a part of Fast Forward India to impart basic computer education free of cost to the underprivileged children in and around Dhanbad. Jagriti started its functioning in 2008 and since then has been actively involved in achieving its goals and fulfilling this cause.
+We are trying to empower them with basic computer education needs so that they will be able to make their stand in this computer-oriented world. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_centerHorizontal="true"
+            android:text="vision"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="This chapter of ffi was started with a vision to empower underprivilage students with computer education so that they can stand in this changing era of india, also computer education for those people who are diconncted from society and want to change themselves so that they can serve and live in society with selfrespect. "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:text="working"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="Admissions for all courses under Jagriti start at the beginning of each academic session. Children are then divided into batches according to their age and on the extent of the computer knowledge they possess (if any). Both theory and practical classes are taken at the FFI centre regularly by Jagriti volunteers. The various courses under Jagriti are as follows: Aadhar: Under this project, very basic knowledge of computers is provided. The beginner’s course structure is designed keeping in mind that the students possess no prior knowledge of computers and is of 10 weeks duration including the final test. The following topics are taught under Aadhar: "
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Understanding the Hardware of the computer and their functions."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/point2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="> Basic operational understanding of the Windows Interface."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/heading4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/point2"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="achievements"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="fill_horizontal"
+            android:text="Under this project of FFI, the following things have been done for the society: 164 students have been imparted computer education in the previous 6 batches successfully at our center. Among 29 inmates from KARAGAR JAGRITI CHAPTER, 14 inmates have been retracted on righteous path and now they are earning honestly. Dwanda a computer quiz, for the slum students has been organized at annual basis. Tulika a painting competition is an annually organized event. Our student Rajni got 1st rank in interview for Biotech. course in P.K. Roy memorial College. A student Sachin of our batch has got the Job as computer operator in the ISM, Emerald Hostel."
+            android:textSize="20dp"
+            android:typeface="sans" />
+
+
+    </RelativeLayout>
+</ScrollView>

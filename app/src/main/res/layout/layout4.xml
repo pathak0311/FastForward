@@ -16,28 +16,28 @@
         android:text="JAGRITI"
         android:id="@+id/jagriti"
         android:onClick="openJagriti"
-        android:drawableTop="@drawable/ic_launcher_background"/>
+        android:drawableTop="@drawable/ffi"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ESCAPE"
         android:onClick="openEscape"
-        android:drawableTop="@drawable/ic_launcher_background"/>
+        android:drawableTop="@drawable/ffi"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BLOODLINE"
         android:onClick="openBloodLine"
-        android:drawableTop="@drawable/ic_launcher_background"/>
+        android:drawableTop="@drawable/ffi"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DISHA"
         android:onClick="openDisha"
-        android:drawableTop="@drawable/ic_launcher_background"/>
+        android:drawableTop="@drawable/ffi"/>
 
 </LinearLayout>
 </ScrollView>

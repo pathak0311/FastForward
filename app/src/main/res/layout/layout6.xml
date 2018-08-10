@@ -13,6 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="about"
+            android:textColor="#fef888"                  
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="50dp" />
 
@@ -22,6 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/heading1"
             android:layout_marginLeft="20dp"
+            android:textColor="#f02ed4"                  
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
@@ -32,6 +34,7 @@
         <TextView
             android:id="@+id/q2"
             android:layout_width="wrap_content"
+            android:textColor="#f02ed4"                  
             android:layout_height="wrap_content"
             android:layout_below="@+id/q1"
             android:layout_marginLeft="20dp"
@@ -44,6 +47,7 @@
 
         <TextView
             android:id="@+id/q3"
+            android:textColor="#f02ed4"                  
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/q2"
@@ -65,6 +69,7 @@
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
             android:text="> What’s the degree I need to acquire?"
+            android:textColor="#f02ed4"                  
             android:textSize="20dp"
             android:typeface="sans" />
 
@@ -78,12 +83,14 @@
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
             android:text="> Which is the best college I could enroll into for this? "
+            android:textColor="#f02ed4"                      
             android:textSize="20dp"
             android:typeface="sans" />
 
 
         <TextView
             android:id="@+id/text1"
+            android:textColor="#ffffff"                  
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/q5"
@@ -101,12 +108,14 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/text1"
             android:layout_centerHorizontal="true"
+            android:textColor="#fef888"                  
             android:text="vision"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="50dp" />
 
         <TextView
             android:id="@+id/text2"
+            android:textColor="#ffffff"                  
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/heading2"
@@ -120,6 +129,7 @@
 
         <TextView
             android:id="@+id/text3"
+            android:textColor="#ffffff"                  
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text2"
@@ -140,6 +150,7 @@
             android:maxLines="1"
             android:text="LAKSHYA project"
             android:textAllCaps="true"
+            android:textColor="#fef888"                  
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="40dp" />
 
@@ -151,6 +162,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
+            android:textColor="#ffffff"                  
             android:gravity="fill_horizontal"
             android:text="In the past years we have been a part of a initiative taken by the government named LAKSHYA PROJECT which aimed to counsel the government schools around Dhanbad district under the supervision of The respected District Educational Officer (DEO) of Dhanbad. Under this tenure, 25 Counseling sessions in 5 Government as listed below schools have been successfully conducted around Dhanbad district and positive feedbacks from the students and the school administrations have been received."
             android:textSize="20dp"
@@ -164,6 +176,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
+            android:textColor="#ffffff"                  
             android:gravity="fill_horizontal"
             android:text="> Govindpur High school, Govindpur"
             android:textSize="20dp"
@@ -174,6 +187,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/p1"
+            android:textColor="#ffffff"                  
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
@@ -189,6 +203,7 @@
             android:layout_below="@+id/p2"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
+            android:textColor="#ffffff"                  
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
             android:text="> Jharia +2 High School, Jharia"
@@ -199,6 +214,7 @@
             android:id="@+id/p4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"                  
             android:layout_below="@+id/p3"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
@@ -213,6 +229,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/p4"
+            android:textColor="#ffffff"                  
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
@@ -230,6 +247,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
+            android:textColor="#ffffff"                  
             android:text="Apart from Lakshya, our volunteers also actively took part in counseling of the students belonging to various private schools."
             android:textSize="20dp"
             android:typeface="sans" />
@@ -241,6 +259,7 @@
             android:layout_below="@+id/text5"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
+            android:textColor="#ffffff"                  
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
             android:text="> New South Point High School"
@@ -253,6 +272,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/pt1"
             android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"                  
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
@@ -264,6 +284,7 @@
             android:id="@+id/pt3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"                  
             android:layout_below="@+id/pt2"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
@@ -282,6 +303,7 @@
             android:maxLines="1"
             android:text="achievements"
             android:textAllCaps="true"
+            android:textColor="#fef888"                  
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="40dp" />
 
@@ -296,6 +318,7 @@
             android:gravity="fill_horizontal"
             android:text="> 50+ counselling sessions have been held in more than 6 schools across Dhanbad so far."
             android:textSize="20dp"
+            android:textColor="#ffffff"                  
             android:typeface="sans" />
 
         <TextView
@@ -307,6 +330,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
+            android:textColor="#ffffff"                  
             android:text="> Successfully conducted “Petrowalk”, in association with SPE, a counselling session which aimed at providing insight into Petroleum Engineering."
             android:textSize="20dp"
             android:typeface="sans" />
@@ -320,6 +344,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
+            android:textColor="#ffffff"                  
             android:text="> A science exhibition was organised in ISM campus in SPARX the annual techno management fest in association with IEEE."
             android:textSize="20dp"
             android:typeface="sans" />
@@ -333,6 +358,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
+            android:textColor="#ffffff"                  
             android:text="> Collaborated with Medhavi Foundation a Delhi based NGO with similar prospects and experienced professionals in the field of career counseling started a new project EDU-DISHA."
             android:textSize="20dp"
             android:typeface="sans" />
@@ -342,6 +368,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/point4"
+            android:textColor="#ffffff"                  
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"

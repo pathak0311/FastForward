@@ -15,6 +15,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="FFI"
         android:id="@+id/heading1"
+        android:textColor="#fef888"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/text1"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="Fast Forward India (FFI) is a unique effort and an initiative undertaken by the students of IIT(ISM) Dhanbad. This is an organization completely managed and administered by the young and enthusiastic students of the institution. Creative and powerful ways are implemented to tackle problems of the millions of underprivileged people in India. The organization conducts blood donation camps, imparts basic computer and English education, and numerous careers counseling sessions in schools to help the deprived students shape their future."
         android:layout_below="@+id/heading1"
         android:layout_marginTop="20dp"
@@ -35,6 +37,7 @@
         android:layout_height="wrap_content"
         android:textSize="50dp"
         android:layout_below="@+id/text1"
+        android:textColor="#fef888"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="our VISION"
         android:id="@+id/heading2"
@@ -49,6 +52,7 @@
         android:backgroundTint="@color/colorAccent"
         android:layout_below="@+id/heading2"
         android:id="@+id/text2"
+        android:textColor="#f02ed4"              
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
@@ -61,6 +65,7 @@
         android:text="@string/quote"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/text2"
+        android:textColor="#ffffff"              
         android:id="@+id/text3"/>
 
     <TextView
@@ -74,6 +79,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:gravity="fill_horizontal"
+        android:textColor="#ffffff"              
         android:typeface="sans"/>
 
 </RelativeLayout>

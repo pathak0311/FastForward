@@ -10,6 +10,7 @@
         <TextView
             android:id="@+id/heading1"
             android:layout_width="wrap_content"
+            android:textColor="#fef888"                  
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="about"
@@ -20,6 +21,7 @@
             android:id="@+id/text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"                  
             android:layout_below="@+id/heading1"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -33,6 +35,7 @@ We are trying to empower them with basic computer education needs so that they w
         <TextView
             android:id="@+id/heading2"
             android:layout_width="wrap_content"
+            android:textColor="#fef888"                  
             android:layout_height="wrap_content"
             android:layout_below="@+id/text1"
             android:layout_centerHorizontal="true"
@@ -46,6 +49,7 @@ We are trying to empower them with basic computer education needs so that they w
             android:layout_height="wrap_content"
             android:layout_below="@+id/heading2"
             android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"                  
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
@@ -55,6 +59,7 @@ We are trying to empower them with basic computer education needs so that they w
 
         <TextView
             android:id="@+id/heading3"
+            android:textColor="#fef888"                  
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text2"
@@ -66,6 +71,7 @@ We are trying to empower them with basic computer education needs so that they w
         <TextView
             android:id="@+id/text3"
             android:layout_width="wrap_content"
+            android:textColor="#ffffff"                  
             android:layout_height="wrap_content"
             android:layout_below="@+id/heading3"
             android:layout_marginLeft="10dp"
@@ -82,6 +88,7 @@ We are trying to empower them with basic computer education needs so that they w
             android:layout_height="wrap_content"
             android:layout_below="@+id/text3"
             android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"                  
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
@@ -92,6 +99,7 @@ We are trying to empower them with basic computer education needs so that they w
         <TextView
             android:id="@+id/point2"
             android:layout_width="wrap_content"
+            android:textColor="#ffffff"                  
             android:layout_height="wrap_content"
             android:layout_below="@+id/point1"
             android:layout_marginLeft="20dp"
@@ -107,6 +115,7 @@ We are trying to empower them with basic computer education needs so that they w
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/point2"
+            android:textColor="#fef888"                  
             android:ellipsize="end"
             android:maxLines="1"
             android:text="achievements"
@@ -123,6 +132,7 @@ We are trying to empower them with basic computer education needs so that they w
             android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:gravity="fill_horizontal"
+            android:textColor="#ffffff"                  
             android:text="Under this project of FFI, the following things have been done for the society: 164 students have been imparted computer education in the previous 6 batches successfully at our center. Among 29 inmates from KARAGAR JAGRITI CHAPTER, 14 inmates have been retracted on righteous path and now they are earning honestly. Dwanda a computer quiz, for the slum students has been organized at annual basis. Tulika a painting competition is an annually organized event. Our student Rajni got 1st rank in interview for Biotech. course in P.K. Roy memorial College. A student Sachin of our batch has got the Job as computer operator in the ISM, Emerald Hostel."
             android:textSize="20dp"
             android:typeface="sans" />

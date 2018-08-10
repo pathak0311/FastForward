@@ -14,8 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:ellipsize="end"
-        android:maxLines="1"
+        android:textColor="#fef888"              
         android:text="GET INVOLVED AS A VOLUNTEER"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="40dp" />
@@ -25,6 +24,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/text1"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="Whatever we achieve is given to us by the society and it is the rightful duty of every individual to give it back to the society. The evil in the society can only be eliminated by working at the grass root level. Here is your chance to give back your share and make this world a better place for the deprived souls."
         android:layout_below="@+id/heading1"
         android:layout_marginTop="20dp"
@@ -41,15 +41,16 @@
         android:text="Sponsor a Child"
         android:id="@+id/heading2"
         android:textAllCaps="true"
-        android:maxLines="1"
+        android:textColor="#fef888"
         android:layout_below="@+id/text1"
-        android:ellipsize="end"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text2"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="You can now help a child complete his studies. Contibute a small amount of your earnings to their schooling. Just sponsor a child. Fill the Form below. Team FFI will contact you as Soon."
         android:layout_below="@+id/heading2"
         android:layout_marginTop="20dp"
@@ -66,15 +67,16 @@
         android:text="DONATE US"
         android:id="@+id/heading3"
         android:textAllCaps="true"
-        android:maxLines="1"
+        android:textColor="#fef888"
         android:layout_below="@+id/text2"
-        android:ellipsize="end"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text3"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="They will gain something which is of great value to them and you will lose barely anything but will receive their blessing and satisfaction. Your donation will give light to a hope, nurture it and help the society move ahead."
         android:layout_below="@+id/heading3"
         android:layout_marginTop="20dp"
@@ -91,15 +93,17 @@
         android:text="Open a chapter in your college"
         android:id="@+id/heading4"
         android:textAllCaps="true"
-        android:maxLines="1"
+        android:textColor="#fef888"
         android:layout_below="@+id/text3"
-        android:ellipsize="end"/>
+        />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text4"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="We cannot reach every needy person on our own. We need support to grow, to educate and to develop. Join us, become a part of FFI family. Open a chapter in your collge. Fill this form. Team FFI will contact you soon."
         android:layout_below="@+id/heading4"
         android:layout_marginTop="20dp"
@@ -114,6 +118,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Benifits of opening a chapter in your college:-"
         android:id="@+id/heading5"
+        android:textColor="#fef888"              
         android:layout_marginLeft="10dp"
         android:layout_below="@+id/text4"/>
 
@@ -122,6 +127,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/point1"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="> Become a part of National NGO"
         android:layout_below="@+id/heading5"
         android:layout_marginTop="20dp"
@@ -135,6 +141,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/point2"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="> Handle cases of blood donation and need"
         android:layout_below="@+id/point1"
         android:layout_marginTop="20dp"
@@ -147,10 +154,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/point3"
+        android:textColor="#ffffff"              
         android:textSize="20dp"
         android:text="> Manage blood donation camps"
         android:layout_below="@+id/point2"
         android:layout_marginTop="20dp"
+        android:textColor="#fef888"              
         android:layout_marginLeft="20dp"
         android:layout_marginRight="10dp"
         android:gravity="fill_horizontal"
@@ -161,6 +170,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/point4"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="> Develop team skills"
         android:layout_below="@+id/point3"
         android:layout_marginTop="20dp"
@@ -174,6 +184,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/point5"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="> Experience for future"
         android:layout_below="@+id/point4"
         android:layout_marginTop="20dp"
@@ -186,6 +197,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/point6"
+        android:textColor="#ffffff"              
         android:textSize="20dp"
         android:text="> You being a student can teach better"
         android:layout_below="@+id/point5"

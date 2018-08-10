@@ -15,6 +15,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="about FFI"
         android:id="@+id/heading1"
+        android:textColor="#fef888"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/text1"
         android:textSize="20dp"
+        android:textColor="#ffffff"              
         android:text="Fast Forward India (FFI) is a unique effort and an initiative undertaken by the students of ISM Dhanbad. This is an organization completely managed and administered by the young and enthusiastic students of the institution.
 Creative and powerful ways are implemented to tackle problems of the millions of underprivileged people in India.
 

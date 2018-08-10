@@ -20,11 +20,13 @@ public class BloodLine extends FragmentActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //This is for making the viewpager FULL SCREEN
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.fragment_page);
         imageFragmentPagerAdapter = new ImageFragmentPagerAdapter(getSupportFragmentManager());
         viewPager = (ViewPager) findViewById(R.id.pager);
+        //Adapter is used to set how the data is given to the view.
         viewPager.setAdapter(imageFragmentPagerAdapter);
     }
 
@@ -51,6 +53,7 @@ public class BloodLine extends FragmentActivity {
                                  Bundle savedInstanceState) {
             View swipeView = inflater.inflate(R.layout.swipe_fragment, container, false);
             ImageView imageView = (ImageView) swipeView.findViewById(R.id.imageView);
+            //Bundles are used to pass any type of data from one activity to another.
             Bundle bundle = getArguments();
             int position = bundle.getInt("position");
             String imageFileName = IMAGE_NAME[position];

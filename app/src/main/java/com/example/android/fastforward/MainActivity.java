@@ -63,14 +63,12 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+    public boolean onNavigationItemSelected(MenuItem item) {        
         int id = item.getItemId();
 
         Fragment fragment = null;
 
         //Setting which fragment is to be launched when a menu item is pressed.
-
         if (id == R.id.home) {
             //This is to distinguish the selected menu item from the rest.
             item.setChecked(true);
